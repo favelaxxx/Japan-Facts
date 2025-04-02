@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía de Etiqueta en Japón</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        
+        header {
+            background-color: #a92f2f;
+            color: black; /* Cambiado de white a black */
+            text-align: center;
+            padding: 2rem 0;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .header-content {
+            position: relative;
+            z-index: 2;
+        }
+        
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5); /* Cambiado para mejorar legibilidad */
+        }
+        
+        header p {
+            margin: 0.5rem 0 0;
+            font-size: 1.2rem;
+        }
+        
+        .circle {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background-color: #fff;
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: white;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+        }
+        
+        section {
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px dashed #ddd;
+        }
+        
+        h2 {
+            color: #a92f2f;
+            border-bottom: 2px solid #a92f2f;
+            padding-bottom: 0.5rem;
+            margin-top: 2rem;
+        }
+        
+        .dos-donts {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            margin-top: 1.5rem;
+        }
+        
+        .dont-section, .do-section {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .dont-section h3 {
+            color: #a92f2f;
+        }
+        
+        .do-section h3 {
+            color: #2f7aa9;
+        }
+        
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        li {
+            margin-bottom: 1.5rem;
+            background-color: #f9f9f9;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+        
+        .dont-list li {
+            border-left: 4px solid #a92f2f;
+        }
+        
+        .do-list li {
+            border-left: 4px solid #2f7aa9;
+        }
+        
+        .tip {
+            background-color: #f5f5f5;
+            padding: 0.8rem;
+            margin-top: 0.5rem;
+            border-radius: 6px;
+            border-left: 4px solid #e6c300;
+        }
+        
+        .tip-icon {
+            font-weight: bold;
+            color: #e6c300;
+        }
+        
+        .number {
+            display: inline-block;
+            width: 25px;
+            height: 25px;
+            background-color: #a92f2f;
+            color: white;
+            text-align: center;
+            border-radius: 50%;
+            margin-right: 8px;
+            font-weight: bold;
+        }
+        
+        .number-do {
+            background-color: #2f7aa9;
+        }
+        
+        .recommendations {
+            background-color: #f0f0f0;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-top: 2rem;
+        }
+        
+        .recommendations h3 {
+            color: #333;
+            margin-top: 0;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 2rem;
+            padding: 1rem;
+            background-color: #a92f2f;
+            color: white;
+        }
+        
+        @media (max-width: 768px) {
+            .dos-donts {
+                flex-direction: column;
+            }
+            
+            header h1 {
+                font-size: 2rem;
+            }
+            
+            .circle {
+                width: 150px;
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="circle"></div>
+        <div class="header-content">
+            <h1>Guía de Etiqueta en Japón</h1>
+            <p>Lo que debes saber antes de viajar</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <section class="intro">
+            <p>Japón tiene una cultura rica y única con costumbres y normas sociales muy específicas. Esta guía te ayudará a entender qué comportamientos evitar y cuáles adoptar durante tu visita para mostrar respeto por la cultura local.</p>
+        </section>
+        
+        <div class="dos-donts">
+            <div class="dont-section">
+                <h2>🚫 Cosas que NO debes hacer en Japón</h2>
+                <ul class="dont-list">
+                    <li>
+                        <span class="number">1</span> <strong>No hables en voz alta en el transporte público</strong> 🚇🔇
+                        <p>El transporte público en Japón es silencioso y ordenado. Las personas suelen evitar hablar en voz alta para no molestar a los demás. Incluso si viajas con amigos o familiares, trata de hablar en un tono bajo.</p>
+                        <div class="tip">
+                            <span class="tip-icon">📌 Consejo:</span> Si necesitas hablar por teléfono, usa el "modo silencioso" y espera a bajarte para contestar.
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <span class="number">2</span> <strong>No des propinas</strong> 💰🚫
+                        <p>En Japón, el servicio en restaurantes, taxis y hoteles ya incluye el costo del trabajo. Si dejas propina, la persona podría sentirse incómoda o incluso devolvértela.</p>
+                        <div class="tip">
+                            <span class="tip-icon">📌 Excepción:</span> En algunos hoteles de lujo o ryokan (posadas tradicionales), es posible dar una propina, pero debe colocarse en un sobre especial y entregarse con ambas manos.
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <span class="number">3</span> <strong>No te saltes la fila</strong> 🚶‍♂️➡️🚶‍♀️
+                        <p>Los japoneses siguen las filas de manera estricta en estaciones de tren, supermercados, cajeros automáticos y tiendas. No intentes colarte o adelantarte, ya que esto es considerado muy grosero.</p>
+                        <div class="tip">
+                            <span class="tip-icon">📌 Consejo:</span> Cuando esperes el metro o tren, busca las marcas en el suelo que indican dónde hacer la fila.
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <span class="number">4</span> <strong>No señales con el dedo</strong> ☝️❌
+                        <p>Señalar con el dedo es considerado descortés. En su lugar, usa la mano abierta para indicar algo o a alguien.</p>
+                    </li>
+                    
+                    <li>
+                        <span class="number">5</span> <strong>No entres con zapatos a casas, templos o ciertos restaurantes</strong> 👞🚷
+                        <p>Muchas casas japonesas, templos, ryokan y algunos restaurantes tradicionales requieren que te quites los zapatos al entrar. Habrá un área especial donde deberás cambiarlos por pantuflas.</p>
+                        <div class="tip">
+                            <span class="tip-icon">📌 Consejo:</span> Lleva calcetines limpios y sin agujeros, ya que podrías tener que quitártelos en algunos lugares.
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <span class="number">6</span> <strong>No uses el celular para hablar en el tren o metro</strong> 📵
+                        <p>Llamar por teléfono en espacios públicos cerrados es considerado molesto. Si necesitas usar tu celular, ponlo en modo silencioso y usa mensajes en lugar de llamadas.</p>
+                        <div class="tip">
+                            <span class="tip-icon">📌 Consejo:</span> Si es una emergencia y necesitas contestar, cúbrete la boca y habla en un tono muy bajo.
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <span class="number">7</span> <strong>No te sirvas tu propia bebida en reuniones</strong> 🍶🙅‍♂️
+                        <p>En reuniones con amigos o colegas, es costumbre que otros te sirvan la bebida, y tú debes hacer lo mismo por ellos. Es una señal de cortesía y hospitalidad.</p>
+                        <div class="tip">
+                            <span class="tip-icon">📌 Consejo:</span> Si alguien te sirve, levanta ligeramente tu vaso en señal de agradecimiento.
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <span class="number">8</span> <strong>No claves los palillos en el arroz</strong> 🍚🥢❌
+                        <p>Clavar los palillos en el arroz se asocia con ritos funerarios, así que es mejor evitarlo.</p>
+                        <div class="tip">
+                            <span class="tip-icon">📌 Consejo:</span> Si necesitas soltar los palillos, colócalos sobre el porta-palillos o en el borde del plato.
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <span class="number">9</span> <strong>No toques a las personas sin permiso</strong> 🤝❌
+                        <p>El contacto físico, como abrazos o tocar el hombro, no es común entre desconocidos en Japón. Aunque en Occidente es normal, en Japón puede resultar incómodo.</p>
+                        <div class="tip">
+                            <span class="tip-icon">📌 Consejo:</span> Saluda con una leve inclinación en lugar de un apretón de manos o un abrazo...
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <span class="number">10</span> <strong>No te suenes la nariz en público</strong> 🤧🚫
+                        <p>Sonarse la nariz en público se considera de mala educación. Si lo necesitas, hazlo en el baño o en un área privada.</p>
+                        <div class="tip">
+                            <span class="tip-icon">📌 Consejo:</span> Si tienes un resfriado, usa una mascarilla (es algo común en Japón).
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="do-section">
+                <h2>✅ Cosas que SÍ debes hacer en Japón</h2>
+                <ul class="do-list">
+                    <li>
+                        <span class="number number-do">1</span> <strong>Haz una reverencia al saludar</strong> 🙇‍♂️
+                        <p>En Japón, las reverencias son una señal de respeto. Hay diferentes tipos según la situación:</p>
+                        <p>- Leve (15°): Para saludos informales.</p>
+                        <p>- Normal (30°): Para mostrar respeto.</p>
+                        <p>- Profunda (45°): Para disculpas o muestras de gran gratitud.</p>
+                        <div class="tip">
+                            <span class="tip-icon">📌 Consejo:</span> No es necesario exagerar, con una leve inclinación bastará para la mayoría de los casos.
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <span class="number number-do">2</span> <strong>Respeta los semáforos y cruza solo en los lugares indicados</strong> 🚦🚶‍♂️
+                        <p>Los japoneses son muy ordenados y nunca cruzan en rojo, incluso si no hay autos a la vista.</p>
+                        <div class="tip">
+                            <span class="tip-icon">📌 Consejo:</span> Aunque estés apurado, sigue la norma y cruza solo cuando el semáforo lo indique.
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <span class="number number-do">3</span> <strong>Lleva una bolsa para tu basura</strong> 🗑️
+                        <p>Japón tiene muy pocos botes de basura en la calle. Se espera que cada persona lleve su basura consigo hasta encontrar un lugar adecuado para desecharla.</p>
+                        <div class="tip">
+                            <span class="tip-icon">📌 Consejo:</span> Separa los residuos correctamente en reciclables y no reciclables.
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <span class="number number-do">4</span> <strong>Aprende algunas frases en japonés</strong> 🗣️🇯🇵
+                        <p>Aunque muchos japoneses entienden algo de inglés, mostrar interés en su idioma es apreciado.</p>
+                        <div class="tip">
+                            <span class="tip-icon">📌 Algunas frases útiles:</span>
+                            <p>こんにちは (Konnichiwa) → Hola</p>
+                            <p>ありがとう (Arigato) → Gracias</p>
+                            <p>すみません (Sumimasen) → Perdón / Disculpa</p>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <span class="number number-do">5</span> <strong>Usa mascarilla si estás enfermo</strong> 😷
+                        <p>Si tienes un resfriado, usa una mascarilla para evitar contagiar a otros.</p>
+                        <div class="tip">
+                            <span class="tip-icon">📌 Consejo:</span> Las mascarillas están disponibles en todas las farmacias y tiendas de conveniencia.
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <span class="number number-do">6</span> <strong>Espera a que te indiquen tu asiento en restaurantes</strong> 🍽️
+                        <p>En Japón, es común que te asignen un asiento en restaurantes en lugar de elegirlo por ti mismo.</p>
+                    </li>
+                    
+                    <li>
+                        <span class="number number-do">7</span> <strong>Respeta el silencio en templos y santuarios</strong> ⛩️🙏
+                        <p>Los templos y santuarios son lugares de respeto y tranquilidad, así que evita hacer ruido o tomar fotos en áreas prohibidas.</p>
+                    </li>
+                    
+                    <li>
+                        <span class="number number-do">8</span> <strong>Paga con ambas manos y recibe el cambio igual</strong> 💴👐
+                        <p>Al pagar, entrega el dinero con ambas manos y recibe el cambio de la misma forma como señal de cortesía.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <section class="recommendations">
+            <h2>⭐ Recomendaciones generales</h2>
+            <ul>
+                <li>✔ <strong>Compra una tarjeta de transporte (Suica o Pasmo)</strong>
+                    <p>Te permitirá usar el metro, autobuses e incluso pagar en algunas tiendas sin necesidad de efectivo.</p>
+                </li>
+                
+                <li>✔ <strong>Prueba la comida local</strong>
+                    <p>Desde sushi hasta ramen, takoyaki y wagyu, Japón tiene una gastronomía increíble.</p>
+                </li>
+                
+                <li>✔ <strong>Lleva efectivo</strong>
+                    <p>Muchos lugares en Japón aún no aceptan tarjetas, así que es útil llevar yenes en efectivo.</p>
+                </li>
+                
+                <li>✔ <strong>Sé puntual</strong>
+                    <p>La puntualidad es muy importante en Japón, así que llega a tiempo a tus compromisos.</p>
+                </li>
+                
+                <li>✔ <strong>Respeta las reglas de los onsen (baños termales)</strong>
+                    <p>Antes de entrar a un onsen, lávate bien en las duchas y revisa si aceptan personas con tatuajes, ya que algunos los prohíben.</p>
+                </li>
+            </ul>
+        </section>
+    </div>
+    
+    <footer>
+        <p>© 2025 - Guía de Etiqueta en Japón</p>
+    </footer>
+</body>
+</html>
